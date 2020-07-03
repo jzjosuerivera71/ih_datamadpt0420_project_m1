@@ -9,7 +9,7 @@ from sqlalchemy import create_engine
 
 #Options: {'poll_info','country_info','personal_info','career_info'}
 def acquire(string):
-    engine = create_engine('sqlite:///C:\projects\\Data_tareas\\raw_data_project_m1.db')
+    engine = create_engine('sqlite:///./data/raw/raw_data_project_m1.db')
     if string == 'poll_info':
         df_1 = pd.read_sql_query("SELECT * FROM poll_info", engine)
         return df_1 
