@@ -1,8 +1,8 @@
 import pandas as pd
 
 # reporting functions
+import pandas
 
-x = Result_2(merge_df) 
-
-x.to_csv('C:\projects\\Data_tareas\\Analisis_2_2.csv', index=False, header=True)
-
+#def save(df):
+#	df.to_csv('C:\projects\\Data_tareas\\Analisis_2_2.csv', index=False, header=True)
+#    return 'Done'
